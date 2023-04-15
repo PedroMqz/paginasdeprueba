@@ -1,0 +1,57 @@
+*	{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body	{background-color: green }
+
+.presentacion {
+
+
+			display:flex;
+			justify-content: center;
+
+
+
+}
+.main_img {
+
+			width: 870px;
+			 
+}
+.principal {
+			border-radius: 30px;
+			width: 700px;
+			object-fit: cover;
+}
+
+
+.contenedor {
+			margin-top: 10px;
+			background-color: orange; 
+			display: flex;
+			justify-content: center;
+			padding: 5px;
+			border-radius: 15px;
+}
+
+.contenedor .imagen {
+
+			width: 100px;
+			margin: 10px;
+			border-radius: 10px;
+			object-fit: cover;
+			opacity: 0.7;
+			transition: .3s;
+}
+
+.contenedor .imagen:hover {
+			opacity: 1;
+			cursor: pointer;
+}
+.active {
+    opacity:  1 !important;
+    box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+}
